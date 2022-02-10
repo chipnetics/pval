@@ -7,7 +7,7 @@ fn main() {
 
 	mut fp := flag.new_flag_parser(os.args)
 	fp.application('pval')
-	fp.version('v0.0.1\nCopyright (c) 2022 jeffrey -at- ieee.org. All rights reserved.\nUse of this source code (/program) is governed by an MIT license,\nthat can be found in the LICENSE file.')
+	fp.version('v2022.02.10\nCopyright (c) 2022 jeffrey -at- ieee.org. All rights reserved.\nUse of this source code (/program) is governed by an MIT license,\nthat can be found in the LICENSE file.')
 	fp.description('\nOutput pdf,cdf distribution from input.\nNote that columns are 0-index based.')
 	fp.skip_executable()
 	pivot_column_arg := fp.int('column', `c`, -1, 'Column index to generate distribution from')
