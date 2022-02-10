@@ -57,7 +57,7 @@ fn main() {
 			}
 			else if is_date {
 				time_s := time.parse("${delimited_row[pivot_column_arg]} 00:00:00") or 
-				{eprintln("Error parsing date. Be sure format is yyyy-mm-dd") return}
+				{eprintln("Error parsing date. Be sure format is yyyy-mm-dd.") return}
 
 				//println("${time_s.unix_time()}")
 				collection << time_s.unix_time()
