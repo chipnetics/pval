@@ -1,0 +1,7 @@
+
+src/*.xer
+src/*.exe
+src/*.txt
+src/*.bat
+bin/*.txt
+.lite_project.lua
