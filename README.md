@@ -50,9 +50,8 @@ Please see the [V language documentation](https://github.com/vlang/v/blob/master
 For Windows users, if you want to pass optional command line arguments to an executable:
 
 1. Navigate to the directory of the utility.
-2. Hold Shift + Right Mouse Click.
-3. Select "Open PowerShell Window Here".
-4. Type the name of the exe along with the optional argument (i.e. `.\pval.exe --help` ).
+2. In the navigation (file-path) bar of Windows Explorer type "cmd" and hit enter to get a command prompt.
+4. Type the name of the exe along with the optional argument (i.e. `pval.exe --help` ).
 
 ```
 Options:
